@@ -10,7 +10,6 @@ public class Termo {
     }
    
     //Métodos set y get
-
     public void setTemp(double temperatura){
         this.temperatura=temperatura;
     }
@@ -18,4 +17,13 @@ public class Termo {
         return this.temperatura;
     }
     
+    //Método convertir
+    public double convertir(double t){
+        System.out.print
+    }
+
+
+
+    (1 °C × 9 / 5) + 32 = 33,8 °F
+
 }
