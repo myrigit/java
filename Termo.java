@@ -26,12 +26,21 @@ public class Termo {
     
     //Método convertir
     public double convertir(){
-        if setUnidad=C  
-            double tempF=(setTemperatura*9/5)+32;
-        elif setUnidad=F 
-            double tempC=(setTemperatura-32)+5/9;
-        else
+        if (getUnidad().equals("C")){
+            this.temperatura=(this.temperatura*9.0/5.0)+32;
+            setUnidad("F"); //ahora la unidad es  F
+            return this.temperatura;
+        }  
+            
+        else if (getUnidad().equals("F")){
+            this.temperatura=(this.temperatura-32)+5.0/9.0;
+            setUnidad("C"); //ahora la unidad es C
+            return this.temperatura;
+        }
+        else{
             System.out.println("Unidad no válida");
+            return Double.NaN
+        }
     }
 
 
