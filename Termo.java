@@ -33,7 +33,7 @@ public class Termo {
         }  
             
         else if (getUnidad().equals("F")){
-            this.temperatura=(this.temperatura-32)+5.0/9.0;
+            this.temperatura=(this.temperatura-32)*5.0/9.0;
             setUnidad("C"); //ahora la unidad es C
             return this.temperatura;
         }
