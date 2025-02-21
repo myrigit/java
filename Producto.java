@@ -46,8 +46,9 @@ public class Producto{
     }
 
     //Método reponer
-    public int reponer(int cantidad){
-        this.stock += cantidad;
+    public int reponer(int cantidad3){
+        this.stock += cantidad3;
+        return this.stock;
     }
 
 }

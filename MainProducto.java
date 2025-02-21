@@ -3,10 +3,10 @@ public class MainProducto{
     public static void main(String[] args){
         
         //Crear instancia (objeto)
-        Producto producto1 = new Producto("Camiseta",19.90,30);
+        Producto producto1 = new Producto("Camiseta",19.90,10);
 
         //Llamada a vender
-        System.out.println("Producto : " +producto1.getNombre() +"- Precio: " +producto1.getPrecio() + " €" +"-Stock inicial: " +getStock() +" unidades");
+        System.out.println("Producto : " +producto1.getNombre() +"- Precio: " +producto1.getPrecio() + " €" +"-Stock inicial: " +producto1.getStock() +" unidades");
         //vender 3 unidades
         int cantidadVenta1 = 3;
         boolean exitoVenta1  = producto1.vender(cantidadVenta1);
@@ -22,7 +22,7 @@ public class MainProducto{
 
         //Reponer 5 unidades
         int cantidadRepuesto = 5;
-        System.out.println("Stock repuesto: " +cantidadRepuesto +"unidades añadidas. Stock actual: " +producto1.reponer(cantidadRepuesto));
+        System.out.println("Stock repuesto: " +cantidadRepuesto +" unidades añadidas. Stock actual: " +producto1.reponer(cantidadRepuesto));
 
         }
 
