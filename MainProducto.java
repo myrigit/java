@@ -5,7 +5,7 @@ public class MainProducto{
         //Crear instancia (objeto)
         Producto producto1 = new Producto("Camiseta",19.90,10);
 
-        //Llamada a vender
+        //IMprimir información inicial
         System.out.println("Producto : " +producto1.getNombre() +"- Precio: " +producto1.getPrecio() + " €" +"-Stock inicial: " +producto1.getStock() +" unidades");
         //vender 3 unidades
         int cantidadVenta1 = 3;
@@ -22,7 +22,8 @@ public class MainProducto{
 
         //Reponer 5 unidades
         int cantidadRepuesto = 5;
-        System.out.println("Stock repuesto: " +cantidadRepuesto +" unidades añadidas. Stock actual: " +producto1.reponer(cantidadRepuesto));
+        producto1.reponer(cantidadRepuesto);
+        System.out.println("Stock repuesto: " +cantidadRepuesto +" unidades añadidas. Stock actual: " +producto1.getStock());
 
         }
 
