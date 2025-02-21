@@ -1,11 +1,11 @@
-public class Product{
+public class Producto{
     //Atributos
     private String nombre;
     private double precio;
     private int stock;
 
     //Constructor
-    public Product (String nombre, double precio, int stock){
+    public Producto (String nombre, double precio, int stock){
         this.nombre=nombre;
         this.precio=precio;
         this.stock=stock;
@@ -29,7 +29,7 @@ public class Product{
     public double getPrecio(){
         return this.precio;
     }
-    public int getStock{
+    public int getStock(){
         return this.stock;
     }
 
@@ -46,7 +46,7 @@ public class Product{
     }
 
     //Método reponer
-    public reponer(int cantidad){
+    public int reponer(int cantidad){
         this.stock += cantidad;
     }
 

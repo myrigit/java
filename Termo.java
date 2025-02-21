@@ -39,7 +39,7 @@ public class Termo {
         }
         else{
             System.out.println("Unidad no válida");
-            return Double.NaN
+            return Double.NaN;
         }
     }
 
