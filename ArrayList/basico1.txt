@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+    ArrayList<Integer> numeros = new ArrayList<>();
+    numeros.add(10);
+    numeros.add(20);
+    numeros.add(30);
+    numeros.add(40);
+    numeros.add(50);
+
+    for(int i=0;i<numeros.size();i++){
+        System.out.println(numeros.get(i));
+    }
+
+
+
+/*
+Ejercicio 1: Crear y recorrer una lista de números
+1 Crea un ArrayList<Integer> llamado numeros.
+2 Añade los números 10, 20, 30, 40, 50.
+3 Usa un for clásico para mostrar todos los elementos.
+ */

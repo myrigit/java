@@ -1,0 +1,34 @@
+import java.util.ArrayList;  // Importamos ArrayList para poder usarlo
+
+// Declaración del ArrayList y adición de valores
+ArrayList<Integer> valores = new ArrayList<>();
+valores.add(23);
+valores.add(57);
+valores.add(89);
+valores.add(12);
+valores.add(75);
+valores.add(33);
+valores.add(98);
+
+// Contador para contar cuántos valores son mayores que 50
+int mayor = 0;
+
+// Recorremos la lista con un for-each
+// "num" ya es el valor de cada elemento en la lista, no un índice
+for (int num : valores) {  
+    if (num > 50) {  // Si el número es mayor que 50, sumamos 1 al contador
+        mayor++;
+    }
+}
+
+// Imprimimos el total de números mayores que 50 fuera del for-each
+System.out.println(mayor);  
+
+
+/*
+📌 Ejercicio 3: Contar elementos mayores que 50
+1️⃣ Crea un ArrayList<Integer> llamado valores.
+2️⃣ Añade los números 23, 57, 89, 12, 75, 33, 98.
+3️⃣ Usa un for-each para contar cuántos valores son mayores que 50.
+4️⃣ Muestra el total de números mayores que 50.
+*/

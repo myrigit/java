@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+ArrayList<String> nombre = new ArrayList<>();
+nombre.add("Ana");
+nombre.add("Luis");
+nombre.add("Marta");
+nombre.add("Carlos");
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Introduce un nombre para buscar: ");
+String n=sc.nextLine();
+
+if(nombre.contains(n)){
+    nombre.remove(n);
+    for(String nom : nombre){
+        System.out.println(nom);
+    }
+}
+else{
+    System.out.println("El nombre " +n +" no se encontró");
+}
+
+/*
+📌 Ejercicio 2: Buscar y eliminar un nombre
+1️⃣ Crea un ArrayList<String> llamado nombres.
+2️⃣ Añade los nombres: "Ana", "Luis", "Marta", "Carlos".
+3️⃣ Pide al usuario un nombre y comprueba si está en la lista usando .contains().
+4️⃣ Si está, bórralo y muestra la lista actualizada.
+5️⃣ Si no está, muestra un mensaje diciendo que el nombre no se encontró.
+*/
