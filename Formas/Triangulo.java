@@ -1,3 +1,4 @@
+package Formas;
 public class Triangulo {
     //Método forma asteriscos
     public void forma(){

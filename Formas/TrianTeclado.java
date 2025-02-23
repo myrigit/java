@@ -1,3 +1,4 @@
+package Formas;
 import java.util.Scanner;
 
 public class TrianTeclado {

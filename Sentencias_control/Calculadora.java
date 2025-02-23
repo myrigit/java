@@ -1,3 +1,4 @@
+package Sentencias_control;
 import java.util.Scanner;
 
 public class Calculadora {

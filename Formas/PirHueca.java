@@ -1,3 +1,4 @@
+package Formas;
 import java.util.Scanner;
 public class PirHueca{
     public void forma(int n){ //n filas de la forma
