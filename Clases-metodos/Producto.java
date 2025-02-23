@@ -4,7 +4,7 @@ public class Producto{
     private double precio;
     private int stock;
 
-    //Constructor
+    //Constructor de la clase para los futuros objetos
     public Producto (String nombre, double precio, int stock){
         this.nombre=nombre;
         this.precio=precio;
