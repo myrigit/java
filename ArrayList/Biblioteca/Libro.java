@@ -1,4 +1,3 @@
-package Biblioteca;
 public class Libro {
     //Atributos
     private String titulo;
