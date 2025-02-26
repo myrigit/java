@@ -32,12 +32,29 @@ class Telefono extends Dispositivo{
 
 //Subclase Computadora
 class Computadora extends Dispositivo{
-  //Atributos propios no tiene
+    //Atributos propios no tiene
+    //Constructor
+    public Computadora (String nombre,String marca){
+      super(nombre,marca);
+    }
+    //Método sobrescrito
+    public void encender(){
+      System.out.println("La computadora se está encendiendo: Chh Chh");
+    }
+}
+public class GestionDispositivos{
+  public static void main(String[] args){
+    //Constructor de la clase no se usa
+    //Creación ArrayList
+    ArrayList<Dispositivo> listaDisp = new ArrayList<>(); 
+    listaDisp.add(new Dispositivo("impresora","Epson");
+    listaDisp.add(new Telefono("iPhone","13 Midnight");
+    listaDisp.add(new Computadora("PC","Intel 7");
 
-  //Constructor
-  public Computadora (String nombre,String marca){
-    super(nombre,marca);
+    //Llamada a método con for-each
+    for(Dispositivo dis: listaDisp){
+      dis.encender();
+    }
   }
-  //Método sobrescrito
-  public void encender 
+    
 
