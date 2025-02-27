@@ -1,4 +1,4 @@
-import java.util.ArrayList
+import java.util.ArrayList;
 
 //Superclase
 class Dispositivo{
@@ -39,7 +39,7 @@ class Computadora extends Dispositivo{
       super(nombre,marca);
     }
     //Método sobrescrito
-    @Override; 
+    @Override
     public void encender(){
       System.out.println("La computadora se está encendiendo: Chh Chh");
     }
@@ -58,5 +58,5 @@ public class GestionDispositivos{
       dis.encender();
     }
   }
-    
+}   
 
