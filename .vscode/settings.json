@@ -1,3 +1,9 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "Clase-abstract"
+    ],
+    "java.project.referencedLibraries": [],
+    "java.project.outputPath": "${workspaceFolder}/${relativeFileDirname}/bin",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
